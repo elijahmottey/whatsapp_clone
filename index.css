@@ -26,6 +26,17 @@ button{
     
 
 }
+.swiper-wrapper{
+    width: 100%;
+    height:fit-content;
+     
+}
+img{
+    width:100%;
+}
+.swiper .swiper-button-prev ,.swiper .swiper-button-next{
+ color: black;
+}
 .connect{
     background: rgb(175, 235, 115);
     max-width: 100%;
@@ -41,12 +52,13 @@ button{
 
 
 .content{
-    width: 210px;
+    width: 50vw;
     height: 500px;
     background: white;
     border-radius: 30px;
-    margin-left: 10px;
-    padding: 20px;  
+    margin-left: 10%;
+    padding: 20px;
+  
 }
 .read-more {
     height: 40px;
@@ -426,11 +438,7 @@ transition: all 0.5s;
         #imageReact-1{
             display: none;
         }
-        .swipe-section{
-            overflow-x: scroll;
-            overflow-y: hidden;
-            
-        }
+       
 
         #message{
             
