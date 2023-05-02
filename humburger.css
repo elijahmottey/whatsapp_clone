@@ -1,0 +1,20 @@
+body{
+    background: cadetblue;
+}
+/* 
+humburger
+ */
+.humburger{
+    display: block;
+    height:fit-content;
+    width: 25px;
+    padding: 5px;
+    cursor: pointer;
+}
+.humburger>div{
+    width: 100%;
+    height: 3px;
+    margin: 4px 0;
+    transition: all 0.5s;
+    background-color: black;
+}
